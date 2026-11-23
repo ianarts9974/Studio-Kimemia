@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ian Kimemia (@ian._arts) | Official Links &amp; Art Storefront</title>
+  <meta name="description" content="Official Instagram link-in-bio for fine artist Ian Kimemia (@ian._arts). Explore original charcoal drawings, museum-grade fine art prints, and custom commissions.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: #FAFAF7;
+      color: #121212;
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2.5rem 1.25rem;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(197, 155, 39, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(0, 0, 0, 0.03) 0%, transparent 40%);
+    }
+    .bio-container {
+      width: 100%;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .avatar-wrapper {
+      position: relative;
+      width: 108px;
+      height: 108px;
+      border-radius: 50%;
+      padding: 4px;
+      background: linear-gradient(135deg, #C59B27, #E5C158, #111);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+      margin-bottom: 1.25rem;
+    }
+    .avatar-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #FFF;
+      border: 3px solid #FFF;
+    }
+    .verified-badge {
+      position: absolute;
+      bottom: 4px;
+      right: 4px;
+      background: #C59B27;
+      color: #FFF;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      border: 2px solid #FFF;
+    }
+    .artist-name {
+      font-family: 'Cinzel', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: #111;
+      margin-bottom: 2px;
+    }
+    .artist-handle {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #C59B27;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+    }
+    .artist-bio {
+      font-size: 0.88rem;
+      color: #555;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+      max-width: 380px;
+    }
+    .links-group {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+    .bio-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      background: #FFFFFF;
+      border: 1px solid #E8E5DD;
+      border-radius: 12px;
+      padding: 16px 20px;
+      text-decoration: none;
+      color: #111;
+      font-weight: 600;
+      font-size: 0.92rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .bio-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      border-color: #111;
+      background: #111;
+      color: #FFF;
+    }
+    .bio-card.featured {
+      background: linear-gradient(135deg, #111111, #222222);
+      color: #FFF;
+      border-color: #C59B27;
+      box-shadow: 0 8px 25px rgba(197, 155, 39, 0.15);
+    }
+    .bio-card.featured:hover {
+      background: #C59B27;
+      color: #000;
+      border-color: #C59B27;
+    }
+    .card-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-align: left;
+    }
+    .card-icon {
+      font-size: 1.25rem;
+    }
+    .card-subtext {
+      font-size: 0.72rem;
+      font-weight: 400;
+      opacity: 0.75;
+      margin-top: 2px;
+    }
+    .social-row {
+      display: flex;
+      gap: 1.25rem;
+      margin-top: 2.5rem;
+    }
+    .social-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #FFF;
+      border: 1px solid #E8E5DD;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #111;
+      transition: all 0.2s ease;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .social-btn:hover {
+      background: #111;
+      color: #FFF;
+      border-color: #111;
+      transform: translateY(-2px);
+    }
+    .footer-note {
+      margin-top: 2.5rem;
+      font-size: 0.75rem;
+      color: #888;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bio-container">
+    <div class="avatar-wrapper">
+      <img src="assets/artworks/ian-kimemia-artist.jpg" alt="Ian Kimemia" class="avatar-img">
+      <div class="verified-badge">✓</div>
+    </div>
+
+    <h1 class="artist-name">IAN KIMEMIA</h1>
+    <div class="artist-handle">@ian._arts</div>
+    <p class="artist-bio">
+      Visual Artist &amp; Realism Specialist 🎨 • Original Drawings &amp; Archival Prints • Worldwide Insured Shipping ✈️
+    </p>
+
+    <div class="links-group">
+      <!-- Main Store Link -->
+      <a href="index.html" class="bio-card featured">
+        <div class="card-left">
+          <span class="card-icon">🏛️</span>
+          <div>
+            <div>Official Art Store &amp; Gallery</div>
+            <div class="card-subtext">Explore the shifting exhibition &amp; shop prints</div>
+          </div>
+        </div>
+        <span>→</span>
+      </a>
+
+      <!-- 2Pac Artwork -->
+      <a href="index.html#gallery" class="bio-card">
+        <div class="card-left">
+          <span class="card-icon">👑</span>
+          <div>
+            <div>2Pac: Immortal Soul (Charcoal Realism)</div>
+            <div class="card-subtext">Collector best seller • Museum archival print</div>
+          </div>
+        </div>
+        <span>→</span>
+      </a>
+
+      <!-- Bob Marley Artwork -->
+      <a href="index.html#gallery" class="bio-card">
+        <div class="card-left">
+          <span class="card-icon">🌿</span>
+          <div>
+            <div>Bob Marley "Redemption" (Hand-Signed)</div>
+            <div class="card-subtext">Original signed charcoal portrait</div>
+          </div>
+        </div>
+        <span>→</span>
+      </a>
+
+      <!-- Commission Inquiries -->
+      <a href="index.html#commissions" class="bio-card">
+        <div class="card-left">
+          <span class="card-icon">🎨</span>
+          <div>
+            <div>Commission a Bespoke Artwork</div>
+            <div class="card-subtext">Custom portraits, cars &amp; canvas paintings</div>
+          </div>
+        </div>
+        <span>→</span>
+      </a>
+
+      <!-- YouTube Drawing Channel -->
+      <a href="https://www.youtube.com/@kim-ian-x9e" target="_blank" class="bio-card">
+        <div class="card-left">
+          <span class="card-icon">📹</span>
+          <div>
+            <div>Watch My Drawing Process (YouTube)</div>
+            <div class="card-subtext">Studio timelapses, tutorials &amp; shading techniques</div>
+          </div>
+        </div>
+        <span>↗</span>
+      </a>
+
+      <!-- Pinterest Inspiration -->
+      <a href="https://www.pinterest.com/ikimemia20/" target="_blank" class="bio-card">
+        <div class="card-left">
+          <span class="card-icon">📌</span>
+          <div>
+            <div>Pinterest Art Moodboards</div>
+            <div class="card-subtext">Curated aesthetics, visual studies &amp; references</div>
+          </div>
+        </div>
+        <span>↗</span>
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/ianarts9974" target="_blank" class="bio-card">
+        <div class="card-left">
+          <span class="card-icon">💻</span>
+          <div>
+            <div>GitHub Developer Profile</div>
+            <div class="card-subtext">Open-source code &amp; creative technology</div>
+          </div>
+        </div>
+        <span>↗</span>
+      </a>
+    </div>
+
+    <!-- Social Icon Row -->
+    <div class="social-row">
+      <a href="https://www.instagram.com/ian._arts/" target="_blank" class="social-btn" title="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </a>
+      <a href="https://www.youtube.com/@kim-ian-x9e" target="_blank" class="social-btn" title="YouTube">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      </a>
+      <a href="https://www.pinterest.com/ikimemia20/" target="_blank" class="social-btn" title="Pinterest">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.07-.94-.13-2.39.03-3.42.14-.94.94-6.41.94-6.41s-.24-.48-.24-1.19c0-1.12.65-1.95 1.46-1.95.69 0 1.02.52 1.02 1.14 0 .69-.44 1.73-.67 2.69-.19.81.41 1.47 1.21 1.47 1.45 0 2.57-1.53 2.57-3.74 0-1.95-1.4-3.32-3.41-3.32-2.32 0-3.69 1.74-3.69 3.54 0 .7.27 1.45.61 1.86.07.08.08.15.06.24-.06.27-.21.84-.24.96-.04.16-.14.2-.32.12-1.18-.55-1.92-2.28-1.92-3.67 0-2.99 2.17-5.73 6.26-5.73 3.29 0 5.84 2.34 5.84 5.48 0 3.27-2.06 5.9-4.92 5.9-.96 0-1.87-.5-2.18-1.09l-.59 2.27c-.22.84-.81 1.89-1.21 2.53A12 12 0 1 0 12 0z"/></svg>
+      </a>
+      <a href="https://github.com/ianarts9974" target="_blank" class="social-btn" title="GitHub">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+      </a>
+    </div>
+
+    <div class="footer-note">
+      © 2026 Studio Kimemia • All Rights Reserved
+    </div>
+  </div>
+
+</body>
+</html>

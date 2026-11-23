@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ian Arts — Studio Kimemia | Fine Art, Charcoal Realism & Contemporary Canvas</title>
+  <meta name="description" content="Official art storefront and exhibition of visual artist Ian Kimemia (@ian._arts). Handcrafted photorealistic charcoal portraits, cultural icons, fine art prints, and bespoke commissions. Worldwide insured shipping.">
+  <meta name="author" content="Ian Kimemia">
+  
+  <!-- Favicon & App Icons -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <!-- Open Graph / Instagram / Social Sharing -->
+  <meta property="og:title" content="Ian Arts — Studio Kimemia">
+  <meta property="og:description" content="Photorealistic fine art portraits and contemporary canvas masterpieces by Ian Kimemia. Available as museum archival prints & originals.">
+  <meta property="og:image" content="assets/mockups/tupac-shakur-mockup.jpg">
+  <meta property="og:url" content="https://ianarts9974.github.io/Studio-Kimemia/">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       ANNOUNCEMENT TICKER & TOP BAR
+       ========================================================================= -->
+  <div class="announcement-bar">
+    <div class="announcement-ticker">
+      <span>✦ <strong>WORLDWIDE INSURED ART SHIPPING</strong> ON ALL ORDERS ✦</span>
+      <span class="announcement-highlight">MUSEUM-GRADE ARCHIVAL PRINTS &amp; ORIGINAL MASTERWORKS</span>
+      <span>HAND-SIGNED BY IAN KIMEMIA WITH CERTIFICATE OF AUTHENTICITY ✦</span>
+    </div>
+    <div class="announcement-actions">
+      <select class="currency-select" aria-label="Select Currency">
+        <option value="USD">USD ($)</option>
+        <option value="EUR">EUR (€)</option>
+        <option value="GBP">GBP (£)</option>
+        <option value="KES">KES (KSh)</option>
+      </select>
+      <button class="bio-link-pill trigger-bio-modal" title="Open Instagram Bio Mode">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        Instagram Bio Mode
+      </button>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MAIN SITE HEADER
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo">
+        <span class="logo-title">
+          IAN ARTS<span class="logo-dot"></span>
+        </span>
+        <span class="logo-sub">STUDIO KIMEMIA • FINE ART</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery Shop</a></li>
+          <li><a href="#about" class="nav-link">About the Artist</a></li>
+          <li><a href="#guarantee" class="nav-link">Quality &amp; Authenticity</a></li>
+          <li><a href="#commissions" class="nav-link">Commissions</a></li>
+          <li><a href="links.html" class="nav-link">Bio Links</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="header-actions">
+        <button class="action-btn trigger-bio-modal" title="Link in Bio Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+        </button>
+        <button class="action-btn cart-btn" id="cartOpenBtn" title="Shopping Cart">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+          <span class="cart-count">0</span>
+        </button>
+        <button class="action-btn mobile-menu-toggle" id="mobileMenuToggle" title="Toggle Navigation Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       HERO: SHIFTING PIECES EXHIBITION
+       (Continuous Moving Gallery of Artworks in Modern Architectural Rooms)
+       ========================================================================= -->
+  <section id="home" class="hero-exhibition">
+    <div class="container">
+      <div class="hero-meta-bar">
+        <div>
+          <span class="hero-tag">Live Exhibition • Studio Kimemia</span>
+          <h1 class="hero-title">Shifting <em>Perspectives</em> &amp; Master Artworks</h1>
+        </div>
+        <div class="hero-controls">
+          <span class="shift-status-pill" id="shiftStatusPill">Live Curated Exhibition</span>
+          <button class="shift-toggle-btn" id="shiftToggleBtn">⏸ Pause</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Infinite Shifting Track -->
+    <div class="shifting-viewport" id="shiftingViewport">
+      <div class="shifting-track" id="shiftingTrack">
+        <!-- Injected dynamically via app.js -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="hero-bottom-strip">
+        <span>STUDIO KIMEMIA ® / SELECTED WORKS &amp; ORIGINALS</span>
+        <a href="#gallery">
+          Explore the Full Collection
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       GALLERY SHOP SECTION & ARTWORK CATALOG
+       ========================================================================= -->
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Curated Print &amp; Original Collection</div>
+        <h2 class="section-title">Handcrafted Realism &amp; Contemporary Visions</h2>
+        <p class="section-desc">
+          Every piece is created by Ian Kimemia using classical charcoal, carbon graphite, and luminous acrylics. Each museum archival print is produced on 310gsm 100% cotton rag with a lifetime permanence guarantee.
+        </p>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="filter-bar">
+        <div class="filter-pills">
+          <button class="filter-btn active" data-filter="all">All Artworks (6)</button>
+          <button class="filter-btn" data-filter="drawings">Charcoal &amp; Graphite Realism</button>
+          <button class="filter-btn" data-filter="canvas">Acrylic &amp; Linen Canvas</button>
+          <button class="filter-btn" data-filter="contemporary">Contemporary &amp; Street</button>
+          <button class="filter-btn" data-filter="originals">Originals Available</button>
+        </div>
+        <div class="view-options">
+          <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600;">Display:</span>
+          <div class="view-mode-toggle">
+            <button class="view-mode-btn active" data-mode="mockup">In Room</button>
+            <button class="view-mode-btn" data-mode="artwork">Artwork</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artworks Grid -->
+      <div class="artwork-grid" id="artworkGrid">
+        <!-- Injected dynamically via app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       ABOUT THE ARTIST SECTION (Ian Kimemia)
+       ========================================================================= -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-card">
+          <img src="assets/artworks/ian-kimemia-artist.jpg" alt="Ian Kimemia Artist Portrait" class="about-portrait" />
+          <div class="about-stamp">
+            <div class="about-stamp-title">IAN KIMEMIA</div>
+            <div class="about-stamp-sub">Studio Principal • Nairobi / Worldwide</div>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="section-label">Behind The Canvas</div>
+          <h2 class="section-title">Dedicated to the Mastery of Charcoal, Light &amp; Soul</h2>
+          
+          <blockquote class="about-quote">
+            "Art is not just what you see, but what you make others feel. Every stroke of charcoal and brush of paint carries a story of patience, passion, and soul."
+          </blockquote>
+
+          <p class="about-text">
+            Ian Kimemia is a renowned visual artist and fine-art draftsman celebrated across Instagram (<a href="https://www.instagram.com/ian._arts/" target="_blank" style="text-decoration: underline; font-weight: 600;">@ian._arts</a>) for his hyperrealistic charcoal portraits, emotive cultural tributes, and vibrant contemporary canvas paintings.
+          </p>
+          <p class="about-text">
+            Operating from Studio Kimemia, Ian merges traditional Renaissance tonal chiaroscuro techniques with contemporary street culture and iconic musical figures. His works have been acquired by art collectors across North America, Europe, Africa, and Asia.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Commissions Completed</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Handcrafted Precision</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">40+</span>
+              <span class="stat-label">Countries Delivered</span>
+            </div>
+          </div>
+
+          <div class="social-pills-row">
+            <span style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--text-primary);">Connect with Ian:</span>
+            <a href="https://www.instagram.com/ian._arts/" target="_blank" class="social-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              Instagram @ian._arts
+            </a>
+            <a href="https://www.youtube.com/@kim-ian-x9e" target="_blank" class="social-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              YouTube Studio
+            </a>
+            <a href="https://www.pinterest.com/ikimemia20/" target="_blank" class="social-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.07-.94-.13-2.39.03-3.42.14-.94.94-6.41.94-6.41s-.24-.48-.24-1.19c0-1.12.65-1.95 1.46-1.95.69 0 1.02.52 1.02 1.14 0 .69-.44 1.73-.67 2.69-.19.81.41 1.47 1.21 1.47 1.45 0 2.57-1.53 2.57-3.74 0-1.95-1.4-3.32-3.41-3.32-2.32 0-3.69 1.74-3.69 3.54 0 .7.27 1.45.61 1.86.07.08.08.15.06.24-.06.27-.21.84-.24.96-.04.16-.14.2-.32.12-1.18-.55-1.92-2.28-1.92-3.67 0-2.99 2.17-5.73 6.26-5.73 3.29 0 5.84 2.34 5.84 5.48 0 3.27-2.06 5.9-4.92 5.9-.96 0-1.87-.5-2.18-1.09l-.59 2.27c-.22.84-.81 1.89-1.21 2.53A12 12 0 1 0 12 0z"/></svg>
+              Pinterest Moodboard
+            </a>
+            <a href="https://github.com/ianarts9974" target="_blank" class="social-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub Code
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CERTIFICATE OF AUTHENTICITY & QUALITY GUARANTEE
+       ========================================================================= -->
+  <section id="guarantee" class="guarantee-section">
+    <div class="container">
+      <div class="guarantee-grid">
+        <div class="guarantee-card">
+          <div class="guarantee-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <h3 class="guarantee-title">Signed Certificate of Authenticity</h3>
+          <p class="guarantee-text">
+            Every original piece and archival print comes accompanied by a hand-signed, embossed Certificate of Authenticity specifying registration number, edition, and medium.
+          </p>
+        </div>
+
+        <div class="guarantee-card">
+          <div class="guarantee-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <h3 class="guarantee-title">100+ Year Museum Archival Paper</h3>
+          <p class="guarantee-text">
+            Printed with 12-color Epson UltraChrome HDR archival pigment inks on 310gsm Hahnemühle 100% Cotton Rag paper. Zero optical brighteners, 100% acid-free.
+          </p>
+        </div>
+
+        <div class="guarantee-card">
+          <div class="guarantee-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><rect x="7" y="7" width="10" height="10"></rect></svg>
+          </div>
+          <h3 class="guarantee-title">Handmade Solid Timber Framing</h3>
+          <p class="guarantee-text">
+            Custom hand-built framing crafted from sustainably sourced solid hardwood (Matte Black or Warm Oak) with 99% UV-protective crystal museum acrylic glass.
+          </p>
+        </div>
+
+        <div class="guarantee-card">
+          <div class="guarantee-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+          </div>
+          <h3 class="guarantee-title">Insured Armored Worldwide Delivery</h3>
+          <p class="guarantee-text">
+            Shipped in heavy-gauge 4mm reinforced art tubes or custom wooden shipping crates. 100% insurance against transit damage with DHL Express tracking.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CUSTOM COMMISSIONS SECTION
+       ========================================================================= -->
+  <section id="commissions" class="commissions-section">
+    <div class="container">
+      <div class="commission-box">
+        <div class="section-header" style="margin-bottom: 2rem;">
+          <div class="section-label">Bespoke Fine Art Inquiries</div>
+          <h2 class="section-title">Commission a Custom Original</h2>
+          <p class="section-desc">
+            Have a cherished portrait, iconic hero, luxury vehicle, or custom interior vision brought to life in hyperrealistic charcoal or vibrant canvas.
+          </p>
+        </div>
+
+        <form id="commissionForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-input" placeholder="e.g. Alexander Vance" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-input" placeholder="e.g. alexander@example.com" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Preferred Medium</label>
+              <select class="form-select" required>
+                <option value="charcoal">Photorealistic Charcoal &amp; Graphite (Recommended)</option>
+                <option value="acrylic">Linen Stretched Canvas (Heavy Body Acrylic)</option>
+                <option value="contemporary">Urban Mixed Media &amp; Street Art</option>
+                <option value="undecided">Open to Artist's Recommendation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Desired Artwork Dimensions</label>
+              <select class="form-select" required>
+                <option value="16x20">16" × 20" (Collector Medium)</option>
+                <option value="18x24">18" × 24" (Gallery Size)</option>
+                <option value="24x36">24" × 36" (Grand Statement)</option>
+                <option value="36x48">36" × 48" or Larger (Custom Architecture)</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label class="form-label">Subject Details &amp; Vision</label>
+              <textarea class="form-textarea" rows="4" placeholder="Describe the portrait subject, cultural inspiration, intended room placement, or deadline..." required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn-submit">Submit Commission Inquiry →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       LOOX-STYLE SOCIAL PROOF FLOATING TOAST (Matching Screenshot 3)
+       ========================================================================= -->
+  <div class="loox-social-toast" id="looxToast">
+    <img id="toastImg" class="toast-img" src="assets/mockups/tupac-shakur-mockup.jpg" alt="Review artwork" />
+    <div class="toast-content">
+      <div class="toast-reviewer" id="toastReviewer">Alex P. (New York)</div>
+      <div class="toast-stars">★★★★★</div>
+      <div class="toast-quote" id="toastQuote">"Quick shipping! The 2Pac piece is majestic."</div>
+      <div class="toast-art-title" id="toastArtTitle">2Pac: Immortal Soul • Verified Buyer</div>
+    </div>
+    <span class="toast-close" id="toastClose">✕</span>
+  </div>
+
+  <!-- =========================================================================
+       PRODUCT DETAIL MODAL (Matching Screenshot 3)
+       ========================================================================= -->
+  <div class="modal-backdrop" id="productModalBackdrop">
+    <div class="product-modal">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Modal">✕</button>
+      
+      <div class="modal-layout">
+        <!-- Left: Image Gallery -->
+        <div class="modal-gallery">
+          <div class="modal-main-image-wrap">
+            <img id="modalMainImage" class="modal-main-image" src="" alt="Selected Artwork" />
+          </div>
+          <div class="modal-thumbnails" id="modalThumbnails">
+            <!-- Populated via app.js -->
+          </div>
+        </div>
+
+        <!-- Right: Options & Ordering -->
+        <div class="modal-info">
+          <h2 class="modal-title" id="modalTitle">Artwork Title</h2>
+          <div class="modal-price-wrap">
+            <span class="modal-current-price" id="modalCurrentPrice">$79.00</span>
+            <span class="modal-original-price" id="modalOriginalPrice">$158.00</span>
+          </div>
+          <div class="shipping-calc-note">Worldwide insured shipping calculated at checkout</div>
+
+          <!-- Size Options -->
+          <div class="option-block">
+            <div class="option-header">
+              SIZE: <span id="selectedSizeLabel">16 × 20"</span>
+            </div>
+            <div class="option-pills">
+              <button class="option-pill-btn size-pill-btn" data-size="12x16">12×16"</button>
+              <button class="option-pill-btn size-pill-btn active" data-size="16x20">16×20"</button>
+              <button class="option-pill-btn size-pill-btn" data-size="18x24">18×24"</button>
+              <button class="option-pill-btn size-pill-btn" data-size="24x36">24×36"</button>
+              <button class="option-pill-btn size-pill-btn" data-size="original">Original Piece</button>
+            </div>
+          </div>
+
+          <!-- Material / Frame Options -->
+          <div class="option-block">
+            <div class="option-header">
+              MATERIAL &amp; FINISH: <span id="selectedFrameLabel">Matte Black Wood Frame</span>
+            </div>
+            <div class="option-pills">
+              <button class="option-pill-btn frame-pill-btn" data-frame="unframed">Unframed Archival Paper</button>
+              <button class="option-pill-btn frame-pill-btn active" data-frame="framed-black">Matte Black Frame</button>
+              <button class="option-pill-btn frame-pill-btn" data-frame="framed-oak">Natural Oak Frame</button>
+              <button class="option-pill-btn frame-pill-btn" data-frame="canvas">Stretched Canvas</button>
+            </div>
+          </div>
+
+          <!-- Quantity Bundles (Matching Screenshot 3) -->
+          <div class="quantity-bundle-box">
+            <div class="bundle-title">COLLECTOR VOLUME SAVINGS:</div>
+            
+            <div class="bundle-option active" data-bundle="1">
+              <div class="bundle-left">
+                <input type="radio" name="bundleGroup" class="bundle-radio" checked />
+                <span>BUY ANY 1</span>
+              </div>
+              <div class="bundle-right">
+                <span class="bundle-now-price" id="bundle1Now">$79.00</span>
+              </div>
+            </div>
+
+            <div class="bundle-option" data-bundle="2">
+              <div class="bundle-left">
+                <input type="radio" name="bundleGroup" class="bundle-radio" />
+                <span>BUY ANY 2 (COLLECTOR DUO)</span>
+              </div>
+              <div class="bundle-right">
+                <span class="bundle-was-price" id="bundle2Was">$158.00</span>
+                <span class="bundle-now-price" id="bundle2Now">$134.30</span>
+                <span class="bundle-discount-badge">15% OFF</span>
+              </div>
+            </div>
+
+            <div class="bundle-option" data-bundle="3">
+              <div class="bundle-left">
+                <input type="radio" name="bundleGroup" class="bundle-radio" />
+                <span>BUY ANY 3 (GALLERY WALL SET)</span>
+              </div>
+              <div class="bundle-right">
+                <span class="bundle-was-price" id="bundle3Was">$237.00</span>
+                <span class="bundle-now-price" id="bundle3Now">$189.60</span>
+                <span class="bundle-discount-badge">20% OFF</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add to Cart & Checkout Buttons -->
+          <div class="modal-actions">
+            <button class="btn-add-cart-large" id="btnAddToCartLarge">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+              Add To Studio Cart
+            </button>
+            <button class="btn-buy-now" id="btnExpressBuy">
+              Express Checkout (Apple Pay / Card)
+            </button>
+          </div>
+
+          <!-- Accordion Information Tabs -->
+          <div class="accordion-list">
+            <div class="accordion-item open">
+              <button class="accordion-trigger">
+                Artwork Story &amp; Technique <span>▼</span>
+              </button>
+              <div class="accordion-body" id="modalStoryText">
+                <!-- Injected via app.js -->
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-trigger">
+                Specifications &amp; Dimensions <span>▼</span>
+              </button>
+              <div class="accordion-body">
+                <p><strong>Medium:</strong> <span id="modalMedium"></span></p>
+                <p><strong>Original Dimensions:</strong> <span id="modalDimensions"></span></p>
+                <p><strong>Printing Standard:</strong> 12-Color Archival Giclée, 310gsm Cotton Rag</p>
+                <p><strong>Artist Signature:</strong> Hand-signed Certificate of Authenticity included</p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <button class="accordion-trigger">
+                Insured Delivery &amp; Safe Arrival <span>▼</span>
+              </button>
+              <div class="accordion-body">
+                <p>Prints are packed in silk archival tissue and reinforced heavy-duty 4mm industrial tubes. Framed pieces ship in custom foam-lined wooden shipping crates with full transit insurance via DHL Express.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       SLIDE-OUT SHOPPING CART DRAWER
+       ========================================================================= -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop">
+    <div class="cart-drawer">
+      <div class="cart-header">
+        <h3 class="cart-header-title">STUDIO CART</h3>
+        <button id="cartDrawerCloseBtn" style="font-size: 1.25rem; cursor: pointer;">✕</button>
+      </div>
+
+      <!-- Free Shipping Tracker -->
+      <div class="cart-free-shipping-bar">
+        <div class="free-shipping-label" id="shippingProgressText">
+          Add <strong>$21.00</strong> more for <strong>FREE Insured Shipping</strong>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="shippingProgressBar" style="width: 60%;"></div>
+        </div>
+      </div>
+
+      <!-- Cart Items -->
+      <div class="cart-items-list" id="cartItemsList">
+        <!-- Injected dynamically via app.js -->
+      </div>
+
+      <!-- Cart Drawer Footer -->
+      <div class="cart-footer">
+        <div class="coupon-row">
+          <input type="text" class="coupon-input" id="couponInput" placeholder="Discount Code (Try IAN10)" />
+          <button class="btn-apply-coupon" id="btnApplyCoupon">Apply</button>
+        </div>
+        <div class="cart-subtotal-row">
+          <span>Subtotal:</span>
+          <span id="cartSubtotalVal">$0.00</span>
+        </div>
+        <button class="btn-checkout-drawer" id="btnCheckoutDrawer">
+          Proceed To Checkout →
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       CHECKOUT SIMULATION MODAL
+       ========================================================================= -->
+  <div class="modal-backdrop" id="checkoutModalBackdrop">
+    <div class="product-modal" style="max-width: 650px;" id="checkoutModalContent">
+      <button class="modal-close-btn" id="btnCloseCheckout">✕</button>
+      <div style="padding: 2.5rem;">
+        <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 0.5rem;">Secure Studio Checkout</h3>
+        <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 1.5rem;">Encrypted 256-bit SSL Art Collector Transaction</p>
+
+        <div style="background: var(--bg-secondary); padding: 1.25rem; border: 1px solid var(--border-light); margin-bottom: 1.5rem; border-radius: 2px;">
+          <h4 style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem;">Order Summary:</h4>
+          <div id="checkoutItemsSummary"></div>
+          <hr style="border: none; border-top: 1px solid var(--border-hairline); margin: 0.75rem 0;" />
+          <div style="display: flex; justify-content: space-between; font-size: 0.85rem;">
+            <span>Subtotal:</span>
+            <span id="checkoutSubtotal">$0.00</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin: 4px 0;">
+            <span>Worldwide Insured Shipping:</span>
+            <span id="checkoutShipping">FREE</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 1.1rem; font-weight: 700; margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--border-light);">
+            <span>Total:</span>
+            <span id="checkoutTotal">$0.00</span>
+          </div>
+        </div>
+
+        <form id="checkoutForm">
+          <div class="form-grid" style="margin-top: 0;">
+            <div class="form-group full-width">
+              <label class="form-label">Recipient Full Name</label>
+              <input type="text" class="form-input" required placeholder="e.g. Liam Henderson" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email for Tracking &amp; Certificate</label>
+              <input type="email" class="form-input" required placeholder="liam@example.com" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Phone (For Courier Delivery)</label>
+              <input type="tel" class="form-input" required placeholder="+1 (555) 019-2834" />
+            </div>
+            <div class="form-group full-width">
+              <label class="form-label">Shipping Address</label>
+              <input type="text" class="form-input" required placeholder="Street address, apartment or suite" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">City</label>
+              <input type="text" class="form-input" required placeholder="City / Town" />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Country</label>
+              <input type="text" class="form-input" required placeholder="United States, United Kingdom, Kenya..." />
+            </div>
+          </div>
+
+          <div style="margin: 1.5rem 0;">
+            <label class="form-label">Payment Method</label>
+            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+              <button type="button" class="option-pill-btn active" style="flex: 1; text-align: center;">Credit Card / Debit</button>
+              <button type="button" class="option-pill-btn" style="flex: 1; text-align: center;">Apple Pay</button>
+              <button type="button" class="option-pill-btn" style="flex: 1; text-align: center;">Google Pay</button>
+              <button type="button" class="option-pill-btn" style="flex: 1; text-align: center;">M-Pesa / Mobile</button>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-submit" style="background: #1B8755; color: #FFF;">
+            Authorize &amp; Complete Collector Purchase
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       INSTAGRAM BIO MODAL (Mobile Link-in-Bio View)
+       ========================================================================= -->
+  <div class="modal-backdrop" id="bioModalBackdrop">
+    <div class="bio-modal-card">
+      <button class="modal-close-btn" id="bioModalCloseBtn" style="top: 12px; right: 12px;">✕</button>
+      <div class="bio-avatar-wrap">
+        <img src="assets/artworks/ian-kimemia-artist.jpg" alt="Ian Kimemia" />
+      </div>
+      <h3 class="bio-name">Ian Kimemia</h3>
+      <div class="bio-handle">@ian._arts</div>
+      <p class="bio-tagline">
+        Fine Artist &amp; Realism Specialist 🎨 • Original Drawings &amp; Archival Prints • Worldwide Insured Shipping ✈️
+      </p>
+
+      <div class="bio-links-list">
+        <a href="#gallery" class="bio-link-btn" onclick="document.getElementById('bioModalCloseBtn').click();">
+          <span>🖼️ Explore Studio Artworks &amp; Prints</span>
+          <span>→</span>
+        </a>
+        <a href="javascript:void(0)" class="bio-link-btn" onclick="document.getElementById('bioModalCloseBtn').click(); openProductModal('tupac-shakur');">
+          <span>👑 2Pac Charcoal Portrait (Collector Favorite)</span>
+          <span>→</span>
+        </a>
+        <a href="#commissions" class="bio-link-btn" onclick="document.getElementById('bioModalCloseBtn').click();">
+          <span>🎨 Request a Custom Commission</span>
+          <span>→</span>
+        </a>
+        <a href="https://www.youtube.com/@kim-ian-x9e" target="_blank" class="bio-link-btn">
+          <span>📹 Watch Drawing Videos on YouTube</span>
+          <span>↗</span>
+        </a>
+        <a href="https://www.pinterest.com/ikimemia20/" target="_blank" class="bio-link-btn">
+          <span>📌 Visual Inspiration on Pinterest</span>
+          <span>↗</span>
+        </a>
+        <a href="https://github.com/ianarts9974" target="_blank" class="bio-link-btn">
+          <span>💻 GitHub Developer Profile</span>
+          <span>↗</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       FOOTER (Matching Screenshots 1 & 2)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand & Social Column (Matching Screenshot 1) -->
+        <div class="footer-brand">
+          <div class="footer-logo-title">IAN ARTS</div>
+          <div class="footer-brand-bio">
+            Official fine art studio and print storefront of artist Ian Kimemia. Handcrafted realism, archival preservation, and cultural portraiture.
+          </div>
+          <div class="footer-social-icons">
+            <!-- Facebook / Pinterest / Instagram / YouTube / GitHub -->
+            <a href="https://www.instagram.com/ian._arts/" target="_blank" class="social-icon-link" title="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.pinterest.com/ikimemia20/" target="_blank" class="social-icon-link" title="Pinterest">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0a12 12 0 0 0-4.37 23.17c-.07-.94-.13-2.39.03-3.42.14-.94.94-6.41.94-6.41s-.24-.48-.24-1.19c0-1.12.65-1.95 1.46-1.95.69 0 1.02.52 1.02 1.14 0 .69-.44 1.73-.67 2.69-.19.81.41 1.47 1.21 1.47 1.45 0 2.57-1.53 2.57-3.74 0-1.95-1.4-3.32-3.41-3.32-2.32 0-3.69 1.74-3.69 3.54 0 .7.27 1.45.61 1.86.07.08.08.15.06.24-.06.27-.21.84-.24.96-.04.16-.14.2-.32.12-1.18-.55-1.92-2.28-1.92-3.67 0-2.99 2.17-5.73 6.26-5.73 3.29 0 5.84 2.34 5.84 5.48 0 3.27-2.06 5.9-4.92 5.9-.96 0-1.87-.5-2.18-1.09l-.59 2.27c-.22.84-.81 1.89-1.21 2.53A12 12 0 1 0 12 0z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/@kim-ian-x9e" target="_blank" class="social-icon-link" title="YouTube">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="https://github.com/ianarts9974" target="_blank" class="social-icon-link" title="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Main Menu Links (Matching Screenshot 1) -->
+        <div>
+          <h4 class="footer-col-title">MAIN MENU</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#home" class="footer-nav-link">HOME</a></li>
+            <li><a href="#gallery" class="footer-nav-link">GALLERY SHOP</a></li>
+            <li><a href="#about" class="footer-nav-link">ABOUT THE ARTIST</a></li>
+            <li><a href="#commissions" class="footer-nav-link">CONTACT &amp; COMMISSIONS</a></li>
+            <li><a href="#guarantee" class="footer-nav-link">REVIEWS &amp; AUTHENTICITY</a></li>
+            <li><a href="links.html" class="footer-nav-link">BIO LINKS</a></li>
+          </ul>
+        </div>
+
+        <!-- Studio Kimemia Policies (Matching Screenshot 1) -->
+        <div>
+          <h4 class="footer-col-title">STUDIO KIMEMIA</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#about" class="footer-nav-link">Who We Are</a></li>
+            <li><a href="#commissions" class="footer-nav-link">Contact Us</a></li>
+            <li><a href="#guarantee" class="footer-nav-link">Certificate of Authenticity</a></li>
+            <li><a href="#guarantee" class="footer-nav-link">Privacy Policy</a></li>
+            <li><a href="#guarantee" class="footer-nav-link">Shipping Policy</a></li>
+            <li><a href="#guarantee" class="footer-nav-link">Refund Policy</a></li>
+            <li><a href="#guarantee" class="footer-nav-link">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <!-- Sign Up & Save Newsletter (Matching Screenshot 1) -->
+        <div>
+          <h4 class="footer-col-title">SIGN UP AND SAVE</h4>
+          <p class="newsletter-desc">
+            Subscribe to get exclusive first-access to original releases, secret collector giveaways, and once-in-a-lifetime deals.
+          </p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" class="newsletter-input" placeholder="Enter your email" required />
+            <button type="submit" class="newsletter-btn">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Payment Icons Strip (Matching Screenshot 2) -->
+      <div class="footer-payment-strip">
+        <span class="payment-badge">💳 VISA</span>
+        <span class="payment-badge">🍎 Apple Pay</span>
+        <span class="payment-badge">G Google Pay</span>
+        <span class="payment-badge">🔴 Mastercard</span>
+        <span class="payment-badge">🟦 AMEX</span>
+        <span class="payment-badge">DISCOVER</span>
+        <span class="payment-badge">JCB</span>
+        <span class="payment-badge">Maestro</span>
+        <span class="payment-badge">🅿️ PayPal</span>
+        <span class="payment-badge">📱 M-Pesa</span>
+      </div>
+
+      <div class="footer-copyright">
+        © 2026 Ian Arts / Studio Kimemia. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
